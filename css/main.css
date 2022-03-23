@@ -1,0 +1,16 @@
+body {
+  font-size: 16px;
+  font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui,
+    helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;
+  background: #2a2a2a;
+  color: #ececec;
+}
+
+main {
+  width: calc(100vw - 2rem);
+  max-width: 72rem;
+  margin: 2rem auto;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}

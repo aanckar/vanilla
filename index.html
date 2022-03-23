@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Test</title>
+    <link rel="stylesheet" href="/css/main.css" />
+  </head>
+
+  <body>
+    <main>
+      <h1>Test app</h1>
+
+      <section>
+        <h2>Product search</h2>
+
+        <div>
+          <label for="product">Product</label>
+          <input list="products" id="product" name="product" />
+        </div>
+
+        <datalist id="products"></datalist>
+      </section>
+
+      <section>
+        <h2>Add products</h2>
+
+        <form data-add-products-form>
+          <label for="product-sku">Add product</label>
+          <input id="product-sku" name="product-sku" type="text" />
+          <input type="submit" title="Add" />
+        </form>
+
+        <table data-add-products-table></table>
+      </section>
+    </main>
+
+    <script type="module" src="/js/main.js"></script>
+  </body>
+</html>
